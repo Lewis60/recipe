@@ -1,0 +1,70 @@
+body {
+    margin: 0 2.4rem;
+    font-family: Georgia, Garamond, serif;
+    font-size: 11px;
+    color: #404040;
+}
+
+h1, h2 {
+    width: max-content;
+    padding: 0.4em 0;
+    font-family: 'Lucida Sans Unicode', Helvetica, Arial, sans-serif;
+    background-color: #F0F0F0;
+    color: #A4A400;
+    text-decoration: underline;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    margin: 0 0 0.5em 0;
+    padding: 0.4em 0;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+header ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.ingredients-list, .directions-list {
+    list-style: url(/assets/pie_icon.gif);
+}
+
+a {
+    color: #A4A400;
+}
+
+blockquote {
+    font-style: italic;
+    background-color: #FFFFA8;
+}
+
+footer div {
+    width: 100%;
+    margin: 0.8em 0;
+    font-family: monospace;
+}
+
+@media screen and (min-width: 1200) {
+    footer div ul  {
+        width: 15.345%;
+        text-align: right;
+    }
+}
+
+footer ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
